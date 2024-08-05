@@ -1,14 +1,14 @@
 # TATA340PP40-FUNCTINOAL-SOFTWARE
 #========================================================#
 ## HARDWARE VERSIONS
-### 1. MCU CARD V.0.1 [MCU CARD V.O.1](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/mcu_board_images)
+### 1. [MCU CARD V.0.1](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
 
 ![MCU_CARD_V.0.1](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/mcu_board_images/MCU_CARD_V.0.1.jpg)
 #### Observations for changelog
 1. Found the mistake in the design, Power supply feed back not connected to the right place.
 2. No isolations used, causing frequent damage to the ICs and Microcontroller during switchings.
 
-### 2. MCU CARD V.0.2
+### 2. [MCU CARD V.0.2](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
 ![MCU_CARD_V.0.2](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/mcu_board_images/MCU_CARD_V.0.2.jpg)
 #### Changelog - date (unknown/missed)
 "This version is for testing purpose only, will order only 1-card"
@@ -17,7 +17,7 @@
 3. Removed I2C headers from board.
 4. Found the AARTECH LOGO missing on silkscreen, will update in the next revision
 
-### 3. MCU CARD V.0.3
+### 3. [MCU CARD V.0.3](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
 ![MCU_CARD_V.0.3](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/mcu_board_images/MCU_CARD_V.0.3.jpg)
 3 Nos of this version supplies
 This version is in production for 8 more Nos. 
@@ -29,7 +29,7 @@ This version is in production for 8 more Nos.
 5. Change in the interface connector to the UCAP board. 
 6. Potentiometer RV1 marked as DNP. No need for precise 15V in the circuit.
 
-### 4. MCU CARD V.0.3 (PRODUCTION-8Nos)
+### 4. [MCU CARD V.0.3 (PRODUCTION-8Nos)](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
 This is the same version as before with changes in source code, In this version current sensor on UCAP PCB is changes from ACS712-20A to HE055T01.
 
 #### Changes suggested for future version 
