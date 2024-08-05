@@ -3,13 +3,13 @@
 ## HARDWARE VERSIONS
 ### 1. [MCU CARD V.0.1](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
 
-![MCU_CARD_V.0.1](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/mcu_board_images/MCU_CARD_V.0.1.jpg)
+![MCU_CARD_V.0.1](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/Hardware/mcu_board_images/MCU_CARD_V.0.1.jpg)
 #### Observations for changelog
 1. Found the mistake in the design, Power supply feed back not connected to the right place.
 2. No isolations used, causing frequent damage to the ICs and Microcontroller during switchings.
 
 ### 2. [MCU CARD V.0.2](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
-![MCU_CARD_V.0.2](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/mcu_board_images/MCU_CARD_V.0.2.jpg)
+![MCU_CARD_V.0.2](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/Hardware/mcu_board_images/MCU_CARD_V.0.2.jpg)
 #### Changelog - date (unknown/missed)
 "This version is for testing purpose only, will order only 1-card"
 1. updated the complete design/architecture
@@ -18,7 +18,7 @@
 4. Found the AARTECH LOGO missing on silkscreen, will update in the next revision
 
 ### 3. [MCU CARD V.0.3](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Hardware)
-![MCU_CARD_V.0.3](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/mcu_board_images/MCU_CARD_V.0.3.jpg)
+![MCU_CARD_V.0.3](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/blob/master/Hardware/mcu_board_images/MCU_CARD_V.0.3.jpg)
 3 Nos of this version supplies
 This version is in production for 8 more Nos. 
 #### Changelog - date (unknown/missed)
