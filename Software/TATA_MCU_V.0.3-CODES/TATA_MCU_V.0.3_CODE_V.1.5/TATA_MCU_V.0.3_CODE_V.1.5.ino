@@ -1,15 +1,17 @@
 /*
 @Author Bhavay Sen
-@Date : 03/08/2023
+@Date : 10/08/2023
+@Hardware MCU V.0.3
+@Hardware UCAP (with HE055T01)
 @REV : V.1.5
 @Project : TATA340PP40
 @Description : 
-  Changed the current sensor code for HE055T completed.
+  Changed the current sensor code for HE055T01 completed.
   .
   .
 */
 // (Rev 1.2 out of 9.9) -> 1.1 - 1.9 - 2.0 - 9.9(Max)
-#define Firmware_Version 1.4 
+#define Firmware_Version 1.5
 // volatile uint8_t Device_ID = 0x00;
 uint8_t Device_ID = 0x00;
 
