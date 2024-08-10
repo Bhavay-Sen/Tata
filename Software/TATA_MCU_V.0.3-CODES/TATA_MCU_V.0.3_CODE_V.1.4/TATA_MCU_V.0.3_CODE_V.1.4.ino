@@ -12,7 +12,7 @@
             then, at ISR for comp A, Turn off timer 1 , reset the check condition flag and again repeat the process
             }
   .
-  .
+  . 
 */
 // (Rev 1.2 out of 9.9) -> 1.1 - 1.9 - 2.0 - 9.9(Max)
 #define Firmware_Version 1.4 
