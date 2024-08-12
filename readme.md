@@ -57,7 +57,7 @@ Second Board design, Architecture of the hardware (MCU) changed in this version,
 
 ### 3. [TATA_MCU_V.0.3-CODES](https://github.com/BhavaySen/TATA340PP40_SOFTWARE/tree/master/Software/TATA_MCU_V.0.3-CODES)
 Final software - Release version development of firmware.
-1. TATA_MCU_V.0.3_CODE_V.1.1
+1. TATA_MCU_V.0.3_CODE_V.1.1 : 
 This is code for MCU V.0.3 - code version V.1.1 includes : 
 1.1. Voltage Monitoring
 1.2.Current monitoring
@@ -65,7 +65,7 @@ This is code for MCU V.0.3 - code version V.1.1 includes :
 1.4.Charge Calculation 
 1.5.CAN Communication With All the above data in single message + Device Address (0000 - 1111), Code Version (for eg : V.1.1 ~ V101) etc
 
-2. TATA_MCU_V.0.3_CODE_V.1.2
+2. TATA_MCU_V.0.3_CODE_V.1.2 : 
 Added V.1.2 code version in TATA MCU V.0.3 CODES. This code is based on the updated flow of process verified by AGG,
   Added :
     2.1. DIP switch based device addressing module.
@@ -73,14 +73,14 @@ Added V.1.2 code version in TATA MCU V.0.3 CODES. This code is based on the upda
     2.3. Added range in temperature sening to avoid hystersis
     2.4. Changes as per the discussion with client -> New data-frame defined byte AVCH is now AMTE.
 
-3. TATA_MCU_V.0.3_CODE_V.1.3
+3. TATA_MCU_V.0.3_CODE_V.1.3 :
 Version 1.3 added in V.0.3 CODES, NEW VERSION OF CODE WITH PCB DESIGN V.0.3
   3.1. Two Individual NTCs on board.
   3.2 Removed Capacitance Measurement
   3.3 Added Temperature Data Transmission in CAN Frame ( Revision as per the new Software ICD V._._)
 // (Rev 1.2 out of 9.9) -> 1.1 - 1.9 - 2.0 - 9.9(Max)
 
-4. TATA_MCU_V.0.3_CODE_V.1.4
+4. TATA_MCU_V.0.3_CODE_V.1.4 : 
 "This is the final version of code for MCU V.0.3 and UCAP board with ACS712 Hall effect sensor. below changes are made in the code after V.1.3.
 4.1. Changed the over-temperature fault mechanism
 4.2. Now the message will be sent without request if OT detected, and the
@@ -88,7 +88,7 @@ Version 1.3 added in V.0.3 CODES, NEW VERSION OF CODE WITH PCB DESIGN V.0.3
    continously till the OT fault status becomes NULL. i.e. System
    temperature < 85 Degree-Cel."
 
-5. TATA_MCU_V.0.3_CODE_V.1.5
+5. TATA_MCU_V.0.3_CODE_V.1.5 : 
 Updated code for MCU V.0.3 Code version 1.5 for new UCAP PCB with HET055T01 UCAP PCB V2.0
 New function added for HE055T01 Hall effect current sensor
 
