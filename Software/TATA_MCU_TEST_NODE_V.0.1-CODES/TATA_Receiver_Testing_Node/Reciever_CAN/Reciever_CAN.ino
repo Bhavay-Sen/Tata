@@ -1,6 +1,8 @@
 #include <SPI.h>
 #include <mcp2515.h>
 
+#define msgSendLED 3
+
 struct can_frame canMsg;
 struct can_frame canMsg1;
 
@@ -17,6 +19,9 @@ void setup() {
   mcp2515.reset();
   mcp2515.setBitrate(CAN_1000KBPS, MCP_16MHZ);
   mcp2515.setNormalMode();
+
+  // Node LED indication
+  pinMode(msgSendLED, OUTPUT);
 
   canMsg1.can_id = 0x0F2;
   canMsg1.can_dlc = 1;
@@ -51,7 +56,11 @@ void loop() {
     }
   }
 */
-      mcp2515.sendMessage(&canMsg1);
+  mcp2515.sendMessage(&canMsg1);
+  digitalWrite(msgSendLED, HIGH);
+  delay(200);
+  digitalWrite(msgSendLED, LOW);
+  delay(200);
 
   if (mcp2515.readMessage(&canMsg) == MCP2515::ERROR_OK && canMsg.can_id == 0x0F6 ) {
 
@@ -108,4 +117,8 @@ void loop() {
 
   delay(1000);
   }
+  else{
+    delay(1000);
+  }
+  
 }

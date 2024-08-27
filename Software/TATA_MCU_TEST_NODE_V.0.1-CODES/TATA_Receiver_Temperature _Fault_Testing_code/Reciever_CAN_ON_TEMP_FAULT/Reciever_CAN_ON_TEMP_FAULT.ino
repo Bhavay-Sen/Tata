@@ -1,6 +1,8 @@
 #include <SPI.h>
 #include <mcp2515.h>
 
+#define msgSendLED 3
+
 struct can_frame canMsg;
 struct can_frame canMsg1;
 
@@ -42,6 +44,11 @@ void loop() {
     int i = Serial.parseInt();
     if(i == 1){
       mcp2515.sendMessage(&canMsg1);
+        mcp2515.sendMessage(&canMsg1);
+  digitalWrite(msgSendLED, HIGH);
+  delay(200);
+  digitalWrite(msgSendLED, LOW);
+  delay(200);
       Serial.println("                                  ---- ---- ---- ---- ---- ---- ---- ----   "
                      "                                               Request Sent                 "
                      "                                  ---- ---- ---- ---- ---- ---- ---- ----   ");
@@ -107,5 +114,7 @@ void loop() {
     Serial.println("                 - - - - - - - - - - - - - - - - - - - - END MESSAGE - - - - - - - - - - - - - - - - - - - - - -                 ");
 
   delay(1000);
+  }  else {
+    delay(1000);
   }
 }
